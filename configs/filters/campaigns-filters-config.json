@@ -1,0 +1,43 @@
+{
+  "items": {
+    "asin": {
+      "field" : "asin",
+      "table": "sponsored_products_ads"
+    },
+    "account" : {
+      "field" : "accountId",
+      "table": "sponsored_products_campaigns"
+    },
+    "status" : {
+      "field" : "campaignStatus",
+      "table": "sponsored_products_campaigns"
+    }
+  },
+  "stat" : {
+    "ctr" : {
+      "name" : "CTR",
+      "field" : "ctr",
+      "multiplier" : true
+    },
+    "spend" : {
+      "name" : "Spends",
+      "field" : "spend",
+      "multiplier" : true
+    },
+    "sales" : {
+      "name" : "Sales",
+      "field" : "sales",
+      "multiplier" : true
+    },
+    "acos" : {
+      "name" : "Acos",
+      "field" : "avgAcos",
+      "multiplier" : true
+    },
+    "clicks" : {
+      "name" : "Clicks",
+      "field" : "clicks",
+      "multiplier" : false
+    }
+  }
+}

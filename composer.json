@@ -1,0 +1,27 @@
+{
+    "name": "PPCSoft/PPCSoft",
+    "description": "Amazon PPC soft",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "voron121",
+            "email": "i-disegn@ya.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "psr/log": "^1.1@dev",
+        "swiftmailer/swiftmailer": "^6.0",
+        "robmorgan/phinx": "0.12.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "PPCSoft\\": "src/",
+            "Models\\": "models/",
+            "Controllers\\": "controllers/"
+        },
+        "files": [
+          "configs/config.php"
+        ]
+    }
+}

@@ -1,0 +1,35 @@
+{
+  "items": {
+    "account" : {
+      "field" : "accountId",
+      "table": "sponsored_products_ad_groups"
+    }
+  },
+  "stat" : {
+    "ctr" : {
+      "name" : "CTR",
+      "field" : "ctr",
+      "multiplier" : true
+    },
+    "spend" : {
+      "name" : "Spends",
+      "field" : "spend",
+      "multiplier" : true
+    },
+    "sales" : {
+      "name" : "Sales",
+      "field" : "sales",
+      "multiplier" : true
+    },
+    "acos" : {
+      "name" : "Acos",
+      "field" : "avgAcos",
+      "multiplier" : true
+    },
+    "clicks" : {
+      "name" : "Clicks",
+      "field" : "clicks",
+      "multiplier" : false
+    }
+  }
+}

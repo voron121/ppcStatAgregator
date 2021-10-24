@@ -1,0 +1,43 @@
+{
+  "items": {
+    "asin": {
+      "field" : "asin",
+      "table": "sponsored_products_ads"
+    },
+    "account" : {
+      "field" : "accountId",
+      "table": "sponsored_products_ads"
+    },
+    "status" : {
+      "field" : "status",
+      "table": "sponsored_products_ads"
+    }
+  },
+  "stat" : {
+    "ctr" : {
+      "name" : "CTR",
+      "field" : "ctr",
+      "multiplier" : true
+    },
+    "spend" : {
+      "name" : "Spends",
+      "field" : "spend",
+      "multiplier" : true
+    },
+    "sales" : {
+      "name" : "Sales",
+      "field" : "sale",
+      "multiplier" : true
+    },
+    "acos" : {
+      "name" : "Acos",
+      "field" : "acos",
+      "multiplier" : true
+    },
+    "clicks" : {
+      "name" : "Clicks",
+      "field" : "clicks",
+      "multiplier" : false
+    }
+  }
+}
